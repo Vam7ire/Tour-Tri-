@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="currency.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <div class="logo "><a href="home.html">Tour trip</a></div>
+            <div class="tourBox">
+                <button class="valleybtn">Inside-Valley</button>|
+                <button class="outsidevalleyBtn">Outside-Valley</button>|
+                <button class="loginTab">Log In</button>
+            </div>
+        </div>
+        <div class="searchBar">
+            <input type="text" class="searchBox" placeholder="Search Anything">
+            <button for="" class="searchBtn"><img src="images/icons/magnifying-glass.png" alt=""
+                    class="searchIcon"></button>
+        </div>
+        <button class="filter" type="button">Filter</button>
+        <hr>
+        <section>
+            <div class="menu">
+                <ul class="menuItem">
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="stay.html">Stay</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="">Currency</a></li>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <hr>
+        </section>
+
+        <section>
+            <div>
+                <h3 class="currencyHeading">Check out the best exchange rate.</h3>
+                <div id="euroChangedValue"></div>
+                <div class="currencyBody">
+                    <label for="">United States Dollar</label>
+                    <br>
+                    <button type="button" id="usdBtn">Usd</button>
+                    <br>
+                    <div id="currencyChangeBody">
+                        <div class="currencyChange">
+                            <input type="text" placeholder="Place your dollar" id="myUsd">
+                            <br>
+                            <br>
+                            <button type="button" id="usdChange">Check</button>
+                            <div id="usdChangedValue">Your money</div>
+                            <button type="button" id="usdClose">Close</button>
+
+                        </div>
+
+                    </div>
+                    <br>
+                    <label for="">Euro</label>
+                    <br>
+                    <button id="euroBtn">Euro</button>
+                    
+                    <br>
+                    <div id="currencyChangeBody1">
+                        <div class="currencyChange">
+                            <input type="text" placeholder="Place your euro" id="myEuro">
+                            <br>
+                            <br>
+                            <button id="euroChange">Check</button>
+                            <div id="euroChangedValue"></div>
+                            <div id="usdChangedValue">Your money</div>
+                            <button type="button" id="euroClose">Close</button>
+                        </div>
+
+                    </div>
+                    <br>
+                    <label for="">United Arab Emirates</label>
+                    <br>
+                    <button id="dirhamBtn">Dirham</button>
+                    <div id="currencyChangeBody2">
+                        <div class="currencyChange">
+                            <input type="text" placeholder="Place your Dirham" id="myDirham">
+                            <br>
+                            <br>
+                            <button>Check</button>
+                            <div id="usdChangedValue">Your money</div>
+                            <button type="button" id="dirhamClose">Close</button>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="currency.js">
+    </script>
+</body>
+
+</html>

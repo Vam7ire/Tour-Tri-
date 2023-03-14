@@ -1,0 +1,79 @@
+
+.currencyHeading{
+    text-align: center;
+
+}
+
+.currencyHeading:hover{
+    color: orange;
+}
+
+.currencyBody{
+    display: relative;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#usdBtn, #euroBtn, #dirhamBtn {
+    color: blue;
+    height: 20px;
+    width: 60px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+#usdBtn:hover{
+    border: 2px solid blue;
+    transition: all 1s ease-in-out;
+    color:white;
+    background-color: gray;
+}
+
+#euroBtn:hover{
+    border: 2px solid blue;
+    transition: all 1s ease-in-out;
+    color:white;
+    background-color: gray;
+}
+
+#dirhamBtn:hover{
+    border: 2px solid blue;
+    transition: all 1s ease-in-out;
+    color:white;
+    background-color: gray;
+}
+
+#currencyChangeBody, #currencyChangeBody1, #currencyChangeBody2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 50;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.currencyChange {
+    background-color: rgb(126, 126, 255);
+    margin: 10px auto;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #888;
+    height: 200px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#usdClose, #dirhamClose, #euroClose{
+    
+    background-color: red;
+    color: white;
+    border: none;
+}
